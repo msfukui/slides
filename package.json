@@ -9,7 +9,7 @@
     "setup": "pnpm install --frozen-lockfile",
     "start": "reveal-md docs -w",
     "build": "reveal-md docs --static dist",
-    "build:pdf": "reveal-md docs --print dist/slides.pdf"
+    "build:pdf": "scripts/build-pdf.sh"
   },
   "dependencies": {
     "reveal-md": "^6.0.1"

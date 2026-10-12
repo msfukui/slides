@@ -30,6 +30,21 @@ The slides are at http://localhost:1948/
 
 終わる時はブラウザを閉じて Ctrl-C で終了してください.
 
+## PDF の作成
+
+`docs/*.md` のスライドごとに `dist/pdf/*.pdf` を作成します.
+
+puppeteer のブラウザはダウンロードしない設定にしているため, ローカルの Chrome を `PUPPETEER_EXECUTABLE_PATH` で指定してください.
+
+```
+$ PUPPETEER_EXECUTABLE_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" pnpm run build:pdf
+```
+
+## リリース
+
+main ブランチへの PR がマージされると, GitHub Actions が全スライドの PDF をアセットに添付した release draft を作成します.
+内容を確認して publish してください.
+
 ## 参考
 
 * Reveal.js
