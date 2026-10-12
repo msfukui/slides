@@ -1,0 +1,17 @@
+{
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "setup": "pnpm install --frozen-lockfile",
+    "start": "reveal-md docs -w",
+    "build": "reveal-md docs --static dist",
+    "build:pdf": "reveal-md docs --print dist/slides.pdf"
+  },
+  "dependencies": {
+    "reveal-md": "^6.0.1"
+  }
+}
