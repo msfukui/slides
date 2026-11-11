@@ -11,7 +11,7 @@ revealOptions:
 <style type="text/css">
 
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;700&display=swap");
 
 :root {
   --r-background-color: white;
@@ -32,7 +32,7 @@ revealOptions:
   --r-heading2-size: 2.0em;
   --r-heading3-size: 1.6em;
   --r-heading4-size: 1.2em;
-  --r-code-font: 'Source Code Pro', monospace;
+  --r-code-font: 'M PLUS 1 Code', monospace;
   --r-link-color: #42affa;
   --r-link-color-dark: #068de9;
   --r-link-color-hover: #8dcffc;
