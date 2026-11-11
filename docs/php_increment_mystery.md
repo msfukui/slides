@@ -650,7 +650,7 @@ Note: 列数を 63 にしたのは「1 年分の生産計画に十分な列と�
 
 ---
 
-### 参考資料 1/3
+### 参考資料 1/4
 
 <div style="font-size: 0.8em;">
 
@@ -674,7 +674,7 @@ Note: 列数を 63 にしたのは「1 年分の生産計画に十分な列と�
 
 ---
 
-### 参考資料 2/3
+### 参考資料 2/4
 
 <div style="font-size: 0.8em;">
 
@@ -702,13 +702,29 @@ Note: 列数を 63 にしたのは「1 年分の生産計画に十分な列と�
 
 ---
 
-### 参考資料 3/3
+### 参考資料 3/4
 
 <div style="font-size: 0.8em;">
 
 * Implementing VisiCalc (Bob Frankston, 2003)
 
     https://www.landley.net/history/mirror/apple2/implementingvisicalc.html
+
+* Was VisiCalc the "first" spreadsheet? (Dan Bricklin)
+
+    http://www.bricklin.com/firstspreadsheetquestion.htm
+
+* 表計算ソフト誕生の話 (Dan Bricklin, TEDxBeaconStreet 2016 / 青木靖 訳)
+
+    https://aoky.net/articles/dan_bricklin/meet_the_inventor_of_the_electronic_spreadsheet.htm
+
+</div>
+
+---
+
+### 参考資料 4/4
+
+<div style="font-size: 0.8em;">
 
 * Multiplan - Wikipedia
 
