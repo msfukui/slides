@@ -74,6 +74,12 @@ revealOptions:
   max-height: none;
 }
 
+@media print {
+  .reveal pre {
+    box-shadow: none;
+  }
+}
+
 ul {
   display: block;
   list-style: none;
