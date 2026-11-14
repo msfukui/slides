@@ -530,7 +530,7 @@ while (d >= SvPVX_const(sv)) {
 
 ---
 
-### PHP 8.5: increment_string()
+### PHP 8.5 / 8.6: increment_string()
 
 <div style="font-size: 0.5em; text-align: left;"><a href="https://github.com/php/php-src/blob/php-8.5.12/Zend/zend_operators.c#L2622-L2628">Zend/zend_operators.c#L2622-L2628 (php-8.5.12)</a></div>
 
@@ -547,7 +547,8 @@ while (d >= SvPVX_const(sv)) {
 <div style="font-size: 0.8em; text-align: center;">
     冒頭で無条件に警告を出して処理は継続<br>
     数値でない文字列は一律で警告対象に<br>
-    後続の判定条件は PHP8.2, PHP8.3 からほぼ変更なし
+    後続の判定条件は PHP8.2, PHP8.3 からほぼ変更なし<br>
+    PHP 8.6 (8.6.0RC7) でも実装は変更なし
 </div>
 
 ---
